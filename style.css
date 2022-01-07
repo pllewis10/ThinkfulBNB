@@ -50,6 +50,11 @@ main img {
   flex: 2;
 }
 
+.box-align{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -------  Navigation ------- */
 
 header {
