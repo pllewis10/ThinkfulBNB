@@ -50,6 +50,11 @@ main img {
   flex: 2;
 }
 
+.box-align{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -------  Navigation ------- */
 
 header {
@@ -100,7 +105,6 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  float: right;
 }
 
 form button {
@@ -151,7 +155,7 @@ footer p {
   }
 
   .vacation-form .item {
-    display: flex block;
+    display: flex;
     flex: 1 1 auto;
     flex-direction: column;
   }
